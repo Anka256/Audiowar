@@ -21,10 +21,12 @@
   },
   "resources": [
     {"id":{"name":"scr_moveenayi","path":"scripts/scr_moveenayi/scr_moveenayi.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"spr_enayi","path":"sprites/spr_enayi/spr_enayi.yy",},},
-    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"scr_shortercamera","path":"scripts/scr_shortercamera/scr_shortercamera.yy",},},
     {"id":{"name":"obj_enayi","path":"objects/obj_enayi/obj_enayi.yy",},},
+    {"id":{"name":"obj_tempo","path":"objects/obj_tempo/obj_tempo.yy",},},
+    {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"Game1","path":"rooms/Game1/Game1.yy",},},
   ],
   "RoomOrderNodes": [
