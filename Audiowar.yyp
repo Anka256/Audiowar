@@ -21,7 +21,8 @@
   },
   "resources": [
     {"id":{"name":"scr_moveenayi","path":"scripts/scr_moveenayi/scr_moveenayi.yy",},},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_enayi","path":"sprites/spr_enayi/spr_enayi.yy",},},
     {"id":{"name":"scr_shortercamera","path":"scripts/scr_shortercamera/scr_shortercamera.yy",},},
     {"id":{"name":"obj_enayi","path":"objects/obj_enayi/obj_enayi.yy",},},
