@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Audiowar",
-    "path": "Audiowar.yyp",
+    "name": "xp",
+    "path": "folders/xp.yy",
   },
   "parentObjectId": null,
   "persistent": false,

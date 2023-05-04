@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Audiowar",
-    "path": "Audiowar.yyp",
+    "name": "xp",
+    "path": "folders/xp.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
