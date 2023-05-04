@@ -1,7 +1,7 @@
 scr_moveenayi();
 
 var target_x = x - camW()/2
-var target_y = y - 150;
+var target_y = y - 540;
 var cam_x = lerp(camX(), target_x, .1)
 var cam_y = lerp(camY(), target_y, .1)
 cam_x = clamp(cam_x, 0, room_width-camW())
