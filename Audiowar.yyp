@@ -34,6 +34,7 @@
     {"id":{"name":"obj_xpbarlevel","path":"objects/obj_xpbarlevel/obj_xpbarlevel.yy",},},
     {"id":{"name":"spr_enayi","path":"sprites/spr_enayi/spr_enayi.yy",},},
     {"id":{"name":"spr_nota","path":"sprites/spr_nota/spr_nota.yy",},},
+    {"id":{"name":"player_stats","path":"scripts/player_stats/player_stats.yy",},},
     {"id":{"name":"obj_killcounter","path":"objects/obj_killcounter/obj_killcounter.yy",},},
     {"id":{"name":"spr_xpbar","path":"sprites/spr_xpbar/spr_xpbar.yy",},},
     {"id":{"name":"spr_level","path":"sprites/spr_level/spr_level.yy",},},

@@ -15,6 +15,7 @@
     {"name":"obj_xpbarlevel","order":2,"path":"objects/obj_xpbarlevel/obj_xpbarlevel.yy",},
     {"name":"spr_enayi","order":2,"path":"sprites/spr_enayi/spr_enayi.yy",},
     {"name":"spr_nota","order":9,"path":"sprites/spr_nota/spr_nota.yy",},
+    {"name":"player_stats","order":19,"path":"scripts/player_stats/player_stats.yy",},
     {"name":"obj_killcounter","order":15,"path":"objects/obj_killcounter/obj_killcounter.yy",},
     {"name":"spr_xpbar","order":4,"path":"sprites/spr_xpbar/spr_xpbar.yy",},
     {"name":"spr_level","order":12,"path":"sprites/spr_level/spr_level.yy",},
