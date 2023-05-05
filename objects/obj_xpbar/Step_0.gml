@@ -4,3 +4,5 @@ obj_xpbarlevel.x = x;
 obj_xpbarlevel.y = y;
 obj_level.x = x - 120;
 obj_level.y = y + 30;
+obj_killcounter.x = x + 700;
+obj_killcounter.y = y - 12;
