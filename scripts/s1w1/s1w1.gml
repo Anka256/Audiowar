@@ -1,4 +1,4 @@
-function s1w1(){
+function s1w1() {
 	var spawn_x = irandom_range(obj_enayi.x - 1200, obj_enayi.x + 1200);
 	var spawn_y = irandom_range(obj_enayi.y - 1200, obj_enayi.y + 1200);
 	spawn_x = clamp(spawn_x, 60, room_width-60);
@@ -17,4 +17,5 @@ function s1w1(){
 		}
 		enemy1_remain -= 1;
 	}
+	if (25 - obj_killcounter.killcount == 0) {clear = true;}
 }
