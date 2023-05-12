@@ -18,11 +18,9 @@ function scr_countdown(){
 		if ((counter >= 135) && (counter <= 150)){image_angle += 2 xs -= 1/15 ys -= 1/15;} // go turn
 	}
 	
-	if (counter == 150) {	
-		obj_tempo.wave += 1;
-		if obj_tempo.wave == 2 {obj_tempo.enemycount = 40;}
-		instance_destroy(self);
-	}
+	if (counter == 150) {instance_destroy(self);}
+	show_debug_message(counter);
+	show_debug_message(image_index);
 }
 
 

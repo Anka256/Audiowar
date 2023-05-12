@@ -1,9 +1,7 @@
 randomize();
 counter -= 1;
-enemycount = enemy1_remain;
-show_debug_message(enemycount);
-whichwave();
 
+s1w1();
 
 if (counter == 0) || (counter == 30) {
 	instance_create_layer(obj_enayi.x, obj_enayi.y, "Instances", obj_nota);
