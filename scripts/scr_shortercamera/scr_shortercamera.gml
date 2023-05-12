@@ -1,7 +1,7 @@
 
 /// @desc Returns y position of camera, and sets first if given
 /// @param [y] (optional) new y
-function camY() {
+function camY(){
 	// Because Game Maker's view functions take too long to write :'(
 	if(argument_count == 1){
 		var yy = argument[0];
@@ -13,7 +13,7 @@ function camY() {
 
 /// @desc Returns x position of camera, and sets first if given
 /// @param [x] (optional) new x
-function camX() {
+function camX(){
 	// Because Game Maker's view functions take too long to write :'(
 	if(argument_count == 1){
 		var xx = argument[0];
@@ -26,7 +26,7 @@ function camX() {
 /// @desc Returns camera position as [x,y], sets position if given
 /// @param [x] (optional) new x
 /// @param [y] (optional) new y
-function camPos() {
+function camPos(){
 	// Because Game Maker's view functions take too long to write :'(
 
 	if(argument_count == 2){
@@ -40,7 +40,7 @@ function camPos() {
 
 /// @desc Returns width of camera, and sets first if given
 /// @param [width] (Optional) new width
-function camW() {
+function camW(){
 	// Because Game Maker's view functions take too long to write :'(
 	if(argument_count == 1){
 		var ww = argument[0];
@@ -56,7 +56,7 @@ function camW() {
 
 /// @desc Returns width of camera, and sets first if given
 /// @param [height] (Optional) new height
-function camH() {
+function camH(){
 	// Because Game Maker's view functions take too long to write :'(
 	if(argument_count == 1){
 		var hh = argument[0];
@@ -73,7 +73,7 @@ function camH() {
 /// @desc Returns camera size as [w,h], sets position if given
 /// @param [width] (optional) new width
 /// @param [height] (optional) new height
-function camSize() {
+function camSize(){
 	// Because Game Maker's view functions take too long to write :'(
 	if(argument_count == 2){
 		var ww = argument[0];
@@ -85,21 +85,21 @@ function camSize() {
 }
 
 /// @desc Returns left side of camera, (identical to camX() except that it's readonly)
-function camL() {
+function camL(){
 	return camX();
 }
 
 /// @desc Returns right side of camera (ready only)
-function camR() {
+function camR(){
 	return camX() + camW();
 }
 
 /// @desc Returns top side of camera, (identical to camY() except that it's readonly)
-function camT() {
+function camT(){
 	return camY();
 }
 
 /// @desc Returns bottom side of camera (read only)
-function camB() {
+function camB(){
 	return camY()+camH();
 }

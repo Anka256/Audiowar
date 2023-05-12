@@ -1,5 +1,5 @@
 image_index = 0;
-with(other) {
+with(other){
 	instance_destroy(self);	
 }
 xp_earned = true;

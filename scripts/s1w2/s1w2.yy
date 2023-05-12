@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "s1w1",
+  "name": "s1w2",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

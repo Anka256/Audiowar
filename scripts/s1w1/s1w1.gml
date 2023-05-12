@@ -1,21 +1,13 @@
 function s1w1() {
-	var spawn_x = irandom_range(obj_enayi.x - 1200, obj_enayi.x + 1200);
-	var spawn_y = irandom_range(obj_enayi.y - 1200, obj_enayi.y + 1200);
-	spawn_x = clamp(spawn_x, 60, room_width-60);
-	spawn_y = clamp(spawn_y, 60, room_height-60);
-	
-	if (counter == 0) && (enemy1_remain > 0) {
-		var new_enemy = instance_create_layer(spawn_x, spawn_y, "Instances", obj_enemy1);
-		
-		while !collision_circle(obj_enayi.x, obj_enayi.y, 1200, new_enemy, false, true) || collision_circle(obj_enayi.x, obj_enayi.y, 400, new_enemy, false, true) {
-			instance_destroy(new_enemy)
-			var spawn_x = irandom_range(obj_enayi.x - 1200, obj_enayi.x + 1200);
-			var spawn_y = irandom_range(obj_enayi.y - 1200, obj_enayi.y + 1200);
-			spawn_x = clamp(spawn_x, 60, room_width-60);
-			spawn_y = clamp(spawn_y, 60, room_height-60);
-			var new_enemy = instance_create_layer(spawn_x, spawn_y, "Instances", obj_enemy1);
+	if (counter != 10*60){
+		if (counter % 60 == 0){
+		 enemy_spawn(obj_enemy1);
 		}
-		enemy1_remain -= 1;
 	}
-	if (25 - obj_killcounter.killcount == 0) {clear = true;}
+	else {
+		show_debug_message(instance_number(obj_enemy1))
+		instance_destroy(obj_enemy1)
+		instance_create_layer(obj_enayi.x, obj_enayi.y - 180, "Instances", obj_countdown);
+		//counter'ı scr_countdown'dan 0'lıyorum
+	}
 }

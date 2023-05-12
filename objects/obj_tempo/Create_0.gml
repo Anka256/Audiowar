@@ -1,6 +1,4 @@
-counter = 60;
-enemy1_remain = 25;
-clear = false;
-countdown_active = true;
+counter = 0;
+wave = 1;
 
 window_set_fullscreen(true);

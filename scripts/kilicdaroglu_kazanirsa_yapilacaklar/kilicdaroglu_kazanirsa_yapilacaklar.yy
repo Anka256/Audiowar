@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "s1w1",
+  "name": "kilicdaroglu_kazanirsa_yapilacaklar",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Stage1",
-    "path": "folders/Stage1.yy",
+    "name": "Audiowar",
+    "path": "Audiowar.yyp",
   },
 }
