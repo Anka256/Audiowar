@@ -23,6 +23,7 @@
   },
   "resources": [
     {"id":{"name":"scr_moveenayi","path":"scripts/scr_moveenayi/scr_moveenayi.yy",},},
+    {"id":{"name":"FUCK","path":"scripts/FUCK/FUCK.yy",},},
     {"id":{"name":"scr_countdown","path":"scripts/scr_countdown/scr_countdown.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_killcounter","path":"sprites/spr_killcounter/spr_killcounter.yy",},},
@@ -33,6 +34,8 @@
     {"id":{"name":"theDrawer","path":"objects/theDrawer/theDrawer.yy",},},
     {"id":{"name":"obj_xp","path":"objects/obj_xp/obj_xp.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"s1w2","path":"scripts/s1w2/s1w2.yy",},},
+    {"id":{"name":"whichwave","path":"scripts/whichwave/whichwave.yy",},},
     {"id":{"name":"obj_xpbarlevel","path":"objects/obj_xpbarlevel/obj_xpbarlevel.yy",},},
     {"id":{"name":"spr_enayi","path":"sprites/spr_enayi/spr_enayi.yy",},},
     {"id":{"name":"spr_nota","path":"sprites/spr_nota/spr_nota.yy",},},

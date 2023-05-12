@@ -1,5 +1,5 @@
-function s1w1() {
-	show_debug_message("s1w1");
+function s1w2() {
+	show_debug_message("s1w2");
 	var spawn_x = irandom_range(obj_enayi.x - 1200, obj_enayi.x + 1200);
 	var spawn_y = irandom_range(obj_enayi.y - 1200, obj_enayi.y + 1200);
 	spawn_x = clamp(spawn_x, 60, room_width-60);
